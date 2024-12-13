@@ -72,4 +72,4 @@ def monitor_alerts():
 			
 			print(f'Alerts checked at {time.ctime()} for {len(alerts)} alerts and {len(past_prices)} tokens from db')
 		
-		time.sleep(10)
+		time.sleep(60)
